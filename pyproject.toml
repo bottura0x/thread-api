@@ -1,0 +1,15 @@
+[project]
+name = "n8n-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.104.1",
+    "uvicorn>=0.24.0",
+    "redis>=5.0.1",
+    "python-dotenv>=1.0.0",
+    "sqlmodel>=0.0.24",
+    "supabase>=2.17.0",
+    "openai>=1.97.1",
+]
