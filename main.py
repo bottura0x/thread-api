@@ -30,7 +30,7 @@ def read_root():
     return {"message": "API N8N Thread Manager está funcionando!"}
 
 @app.get("/thread/{numero}")
-def get_thread(numero: int) -> Dict[str, int | str]:
+def get_thread(numero: str) -> Dict[str, int | str]:
     """
     Endpoint para buscar ou criar uma thread OpenAI para um número específico.
     
